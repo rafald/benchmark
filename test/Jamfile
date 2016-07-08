@@ -1,0 +1,17 @@
+project 
+        : requirements  <library>..//benchmark
+;
+
+run basic_test.cc ;
+run benchmark_test.cc ;
+run complexity_test.cc ; 
+# old compiler:  run cxx03_test.cc ;
+run diagnostics_test.cc ;
+run donotoptimize_test.cc ;
+run filter_test.cc ;
+run fixture_test.cc ;
+run map_test.cc ; 
+run options_test.cc ;
+run reporter_output_test.cc ; 
+run skip_with_error_test.cc ;
+
