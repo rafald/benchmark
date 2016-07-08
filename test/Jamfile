@@ -5,7 +5,7 @@ project
 run basic_test.cc ;
 run benchmark_test.cc ;
 run complexity_test.cc ; 
-# old compiler:  run cxx03_test.cc ;
+# can not override -std=c++11 because concatenated:   run cxx03_test.cc : : : <cxxflags>"-std=c++03 " ;
 run diagnostics_test.cc ;
 run donotoptimize_test.cc ;
 run filter_test.cc ;
